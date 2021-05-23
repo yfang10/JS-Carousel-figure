@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "microsoft-yahei";
+    color: #14191e;
+}
+
+.main {
+    width: 1200px;
+    height: 460px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* 焦点图 */
+.banner {
+    width: 1200px;
+    height: 460px;
+   overflow: hidden;
+}
+
+.banner-slide {
+    width: 1200px;
+    height: 460px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background-image: url(../img/bg1.jpg);
+}
+.slide2 {
+    background-image: url(../img/bg2.jpg);
+}
+
+.slide3 {
+    background-image: url(../img/bg3.jpg);
+}
+
+.button {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    left: 244px;
+    top: 50%;
+    background: url(../img/arrow.jpg) center center no-repeat;
+    margin-top: -40px;
+
+}
