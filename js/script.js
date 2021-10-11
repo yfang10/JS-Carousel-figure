@@ -125,7 +125,7 @@ addHandler(banner, "mouseout", function(){
 })
 
 //鼠标离开主菜单menuContent, 隐藏子菜单
-addH按了(menuContet, "mouseout", function(){
+addHandler(menuContet, "mouseout", function(){
     subMenu.className = "sub-menu hide";
 })
 
